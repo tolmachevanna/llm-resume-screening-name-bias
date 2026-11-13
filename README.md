@@ -10,17 +10,17 @@ All resumes, names, and contact details are synthetic. The repository contains n
 
 ```
 code/
+  analysis.py                         statistical analysis
   bias_test_script.py                 data collection, main run: GPT-6.1 Sol and Llama 4 Maverick (matched condition)
   bias_test_script_alte_modelle.py    data collection, main run: GPT-3.5 Turbo and GPT-4 (matched condition)
   bias_test_script_erweiterung.py     data collection, extension: Llama 3.3 70B, Llama 3.1 8B, Llama 3 8B (matched)
                                       and all seven models in the mismatched condition
-  analysis.py                         statistical analysis
 data/
-  results_v3.xlsx                     raw output of bias_test_script.py (144 rows)
-  results_alte_modelle.xlsx           raw output of bias_test_script_alte_modelle.py (144 rows)
-  results_v4.xlsx                     raw output of bias_test_script_erweiterung.py (1,224 rows)
   alle_daten_final.xlsx               combined dataset, one row per evaluation (1,512 rows)
   analysis_results.xlsx               output of analysis.py (one sheet per result table)
+  results_alte_modelle.xlsx           raw output of bias_test_script_alte_modelle.py (144 rows)
+  results_v3.xlsx                     raw output of bias_test_script.py (144 rows)
+  results_v4.xlsx                     raw output of bias_test_script_erweiterung.py (1,224 rows)
 ```
 
 The file names `results_v3` and `results_v4` are internal version labels of the data collection runs.
